@@ -16,7 +16,7 @@ function validate() {
     return false;
   }
   
-  if (document.myForm.phoneNumber.value == "" ||isNaN(document.myForm.phoneNumber.value) || document.myForm.phoneNumber.value!=10) {
+  if (document.myForm.phoneNumber.value == "" ||isNaN(document.myForm.phoneNumber.value) || document.myForm.phoneNumber.value.length!=10) {
     alert("Please enter correct phone number");
     document.myForm.phoneNumber.focus();
     return false;
