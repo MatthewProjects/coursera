@@ -3,7 +3,7 @@
         //sayHello();//
  
  
- function sum() {
+function sum() {
             var n1 = 2;
             var n2 = 99;
             var add = n1 + n2;
