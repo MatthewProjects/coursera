@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Reactive button</title>
+  <style>
+    #moreText {
+        display: none;
+    }
+  </style>
+</head>
+
+<body>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam nisi quae recusandae exercitationem ducimus in. Deserunt autem, enim distinctio voluptates vero non architecto facilis sequi impedit quod exercitationem, accusamus quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam qui sapiente ullam! Amet dolore voluptatem, voluptas iste molestiae molestias fugit soluta dicta facilis itaque similique, delectus provident sint placeat? Modi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, quae voluptatibus ullam sed, omnis impedit animi voluptatem ut sequi labore dignissimos esse asperiores accusamus quaerat enim optio. Soluta, laboriosam nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reprehenderit at repudiandae odio? Officiis, error. Sunt sint natus pariatur veritatis, totam minus ipsam ut laborum dolores ullam voluptatum, incidunt tempora!
+
+  <span id="dots">...</span>
+  <span id="moreText">
+
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, saepe ipsum vero ratione nobis quis totam atque reiciendis placeat animi, vitae eveniet temporibus facilis. Sed quaerat sit quis error amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas voluptates incidunt optio? Eius vitae aut deserunt officia! Ratione pariatur, reiciendis ut dolorum exercitationem labore tempora natus, cupiditate distinctio provident neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid eum inventore quis nemo voluptas, ab nesciunt? Ad vel eligendi minus beatae. Aperiam libero nihil iusto temporibus, nostrum voluptatem id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem quisquam ut rerum odio numquam dolore aliquam quos iste et enim, nihil aut! Harum ipsum commodi qui dicta impedit error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsa, adipisci, magni sed aut nisi voluptate eos at molestiae hic veniam. Ipsum laboriosam minima voluptas itaque atque consequuntur corrupti sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae adipisci modi inventore voluptate nisi unde suscipit illum eveniet quae aut nulla, natus exercitationem est minus, incidunt quas dolorem esse.
+  </span>
+  <button id="button" onclick="reactive();">Read more</button>
+  <script>
+    function reactive(){
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("moreText");
+      var btn = document.getElementById("button");
+
+      if(dots.style.display=="none"){
+        dots.style.display == "none";
+        btn.innerHTML="Read less";
+        moreText.style.display="none";
+      }
+      else{
+          dots.style.display == "none";
+        btn.innerHTML = "Read less";
+        moreText.style.display = "none";
+      }
+
+    }
+    
+  </script>
+</body>
+</html>
