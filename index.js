@@ -1,8 +1,8 @@
   //function sayHello() {//
          //alert("hello and greetings");//
         //sayHello();//
- 
- 
+
+
 function sum() {
             var n1 = 2;
             var n2 = 99;
