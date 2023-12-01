@@ -14,7 +14,7 @@
   <span id="dots">...</span>
   <span id="moreText">
 
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, saepe ipsum vero ratione nobis quis totam atque reiciendis placeat animi, vitae eveniet temporibus facilis. Sed quaerat sit quis error amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas voluptates incidunt optio? Eius vitae aut deserunt officia! Ratione pariatur, reiciendis ut dolorum exercitationem labore tempora natus, cupiditate distinctio provident neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid eum inventore quis nemo voluptas, ab nesciunt? Ad vel eligendi minus beatae. Aperiam libero nihil iusto temporibus, nostrum voluptatem id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem quisquam ut rerum odio numquam dolore aliquam quos iste et enim, nihil aut! Harum ipsum commodi qui dicta impedit error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsa, adipisci, magni sed aut nisi voluptate eos at molestiae hic veniam. Ipsum laboriosam minima voluptas itaque atque consequuntur corrupti sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae adipisci modi inventore voluptate nisi unde suscipit illum eveniet quae aut nulla, natus exercitationem est minus, incidunt quas dolorem esse.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorem ad maiores quisquam, placeat exercitationem sapiente quia itaque, modi iste cumque aperiam? Vel velit quia consequuntur nesciunt fuga impedit voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laboriosam natus tenetur maxime eligendi architecto dolorum illum ipsam expedita doloribus aut doloremque, maiores tempore. Veniam animi repellendus laudantium rem molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sed nesciunt at amet iusto facilis voluptatem blanditiis earum doloremque, odio laudantium facere laborum est error nam repellat alias illum commodi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci cum tenetur, consequatur quasi natus illum voluptate provident? Dolor sed exercitationem nostrum recusandae aliquam voluptatibus perferendis explicabo! Est explicabo exercitationem quisquam!
   </span>
   <button id="button" onclick="reactive();">Read more</button>
   <script>
@@ -23,14 +23,13 @@
       var moreText = document.getElementById("moreText");
       var btn = document.getElementById("button");
 
-      if(dots.style.display=="none"){
-        dots.style.display == "none";
-        btn.innerHTML="Read less";
-        moreText.style.display="none";
-      }
-      else{
-          dots.style.display == "inline";
-        btn.innerHTML = "Read more";
+      if (dots.style.display == "none") {
+        dots.style.display = "inline";
+        btn.innerHTML ="Read more";
+        moreText.style.display ="none";
+      } else{
+          dots.style.display = "none";
+        btn.innerHTML = "Read less";
         moreText.style.display = "inline";
       }
 
